@@ -6,6 +6,7 @@ import {
   removeMessage,
   removeLog
 } from '../actions'
+import PropTypes from 'prop-types';
 
 class App extends Component {
   constructor(props) {
@@ -128,6 +129,14 @@ class App extends Component {
   )
 }
 
+App.propTypes = {
+  addMessage: PropTypes.func,
+  addLog: PropTypes.func,
+  removeMessage: PropTypes.func,
+  removeLog: PropTypes.func,
+};
+
+
 export default connect(
   ({ messages, logs }) => ({ messages, logs }),
   {
@@ -136,4 +145,4 @@ export default connect(
     removeMessage,
     removeLog
   }
-)(App)
+)(App);
