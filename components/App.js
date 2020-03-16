@@ -7,6 +7,7 @@ import {
   removeLog
 } from '../actions'
 import PropTypes from 'prop-types';
+import { AppBar } from './appbar/appbar.js';
 
 class App extends Component {
   constructor(props) {
@@ -90,6 +91,7 @@ class App extends Component {
 
   render = () => (
     <React.Fragment>
+      <AppBar />
       <h1>React Redux Starter</h1>
       <section className="flex-row">
         <section className="flex-column flex" style={this.padding}>
