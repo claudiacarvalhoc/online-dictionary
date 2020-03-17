@@ -7,7 +7,7 @@ import {
   removeLog
 } from '../actions'
 import PropTypes from 'prop-types';
-import { AppBar } from './appbar/appbar.js';
+import { AppBar } from './appbar';
 
 class App extends Component {
   constructor(props) {
