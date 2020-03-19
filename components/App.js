@@ -7,7 +7,7 @@ import {
   removeLog
 } from '../actions'
 import PropTypes from 'prop-types';
-import { AppBar } from './appbar';
+// import { TopBar } from './topbar';
 
 class App extends Component {
   constructor(props) {
@@ -37,7 +37,7 @@ class App extends Component {
 
   marginTop = {
     marginTop: '4px'
-  }
+  } 
 
   margin = {
     margin: '8px'
@@ -89,9 +89,8 @@ class App extends Component {
     ))
   }
 
-  render = () => (
+  render = () => ( 
     <React.Fragment>
-      <AppBar />
       <h1>React Redux Starter</h1>
       <section className="flex-row">
         <section className="flex-column flex" style={this.padding}>
