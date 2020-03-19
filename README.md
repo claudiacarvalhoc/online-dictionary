@@ -1,3 +1,4 @@
-# react-redux-starter-example-e3mlxj
+# Online Dictionary
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-redux-starter-example-e3mlxj)
+This project is being developed on StackBlitz.
+
